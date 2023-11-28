@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 5px;
+    font-size: 13px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin: 0; 
+}
+
+.wrapper {
+    display: grid;
+    height: min-content;
+    width: 725px;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px; 
+}
+
+.header, .header-2, .description {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.header-2 {
+    font-weight: bold;
+}
+
+.description {
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(225, 238, 250);
+}
+
+.recipe {
+    display: grid;
+    height: 300px;
+    width: 215px;
+    grid-template-rows: 1fr, 1fr;
+    background-color: rgb(254, 238, 219);
+    align-items: center;
+    justify-content: center; 
+}
+
+.recipe a {
+    color: rgb(176, 153, 128);
+    margin-bottom: 10px;
+}
+
+/* Visited link color */
+.recipe a:visited {
+    color: rgb(153, 126, 89); 
+}
+
+img {
+    background-color: rgb(149, 163, 184);
+}
