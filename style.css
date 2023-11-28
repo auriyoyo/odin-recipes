@@ -68,7 +68,6 @@ body {
     margin-bottom: 10px;
 }
 
-/* Visited link color */
 .recipe a:visited {
     color: rgb(153, 126, 89); 
 }
@@ -77,7 +76,7 @@ img {
     background-color: rgb(149, 163, 184);
 }
 
-/* BUKO PANDAN PAGE */
+/* RECIPE PAGES */
 .buko-pandan-container {
     display: grid;
     height: min-content;
@@ -90,31 +89,39 @@ img {
     padding: 30px;
 }
 
-.buko-title, .buko-description {
+.recipe-title, .recipe-description {
     grid-column-start: 1; 
     grid-column-end: 3; 
 }
 
-.buko-title {
+.recipe-title {
     font-weight: bold;
 }
 
-.buko-ingredients div {
+.recipe-ingredients div {
     font-weight: bold;
     margin-left: -15px;
 }
 
-.buko-ingredients {
+.recipe-ingredients, .recipe-steps {
     margin: 20px;
 }
 
-.buko-recipe div {
+.recipe-steps div {
     font-weight: bold;
     margin-left: -20px;
 }
 
-.buko-recipe {
-    margin: 20px;
+.buko-pandan-container {
+    display: grid;
+    height: min-content;
+    width: 900px;
+    grid-template-columns: 2fr 3fr; 
+    background-color: rgb(204, 221, 207);
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(70, 93, 76);
+    padding: 30px;
 }
 
 .buko-pandan-container a {
@@ -129,7 +136,34 @@ img {
     grid-column-end: 3; 
 }
 
-/* Visited link color */
 .buko-pandan-container a:visited {
     color: rgb(53, 66, 56);
+}
+
+.hwachae-container {
+    display: grid;
+    height: min-content;
+    width: 900px;
+    grid-template-columns: 2fr 3fr; 
+    background-color: rgb(251, 224, 233);
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(207, 154, 172);
+    padding: 30px;
+}
+
+.hwachae-container a {
+    background-color: rgb(213, 158, 176);
+    color: rgb(135, 87, 103);
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(207, 154, 172);
+    padding: 2px;
+    margin-bottom: 10px;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+}
+
+.hwachae-container a:visited {
+    color: rgb(135, 87, 103);
 }
