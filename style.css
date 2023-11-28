@@ -167,3 +167,31 @@ img {
 .hwachae-container a:visited {
     color: rgb(135, 87, 103);
 }
+
+.mango-sago-container {
+    display: grid;
+    height: min-content;
+    width: 900px;
+    grid-template-columns: 2fr 3fr; 
+    background-color: rgb(251, 242, 224);
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(247, 213, 145);
+    padding: 30px;
+}
+
+.mango-sago-container a {
+    background-color: rgb(237, 192, 101);
+    color: rgb(174, 126, 29);
+    border: solid;
+    border-width: 2px;
+    border-color:  rgb(247, 213, 145);
+    padding: 2px;
+    margin-bottom: 10px;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+}
+
+.mango-sago-container a:visited {
+    color: rgb(174, 126, 29);
+}
