@@ -77,17 +77,6 @@ img {
 }
 
 /* RECIPE PAGES */
-.buko-pandan-container {
-    display: grid;
-    height: min-content;
-    width: 900px;
-    grid-template-columns: 2fr 3fr; 
-    background-color: rgb(204, 221, 207);
-    border: solid;
-    border-width: 2px;
-    border-color: rgb(70, 93, 76);
-    padding: 30px;
-}
 
 .recipe-title, .recipe-description {
     grid-column-start: 1; 
@@ -136,7 +125,8 @@ img {
     grid-column-end: 3; 
 }
 
-.buko-pandan-container a:visited {
+.buko-pandan-container a:visited, .buko-pandan-container > .recipe-title, .buko-pandan-container > .recipe-ingredients > div, 
+.buko-pandan-container > .recipe-steps > div{
     color: rgb(53, 66, 56);
 }
 
@@ -164,8 +154,9 @@ img {
     grid-column-end: 3; 
 }
 
-.hwachae-container a:visited {
-    color: rgb(135, 87, 103);
+.hwachae-container a:visited, .hwachae-container > .recipe-title, .hwachae-container > .recipe-ingredients > div, 
+.hwachae-container > .recipe-steps > div{
+    color: rgb(104, 81, 89);
 }
 
 .mango-sago-container {
@@ -192,6 +183,7 @@ img {
     grid-column-end: 3; 
 }
 
-.mango-sago-container a:visited {
-    color: rgb(174, 126, 29);
+.mango-sago-container a:visited, .mango-sago-container > .recipe-title, .mango-sago-container > .recipe-ingredients > div, 
+.mango-sago-container > .recipe-steps > div{
+    color: rgb(134, 109, 59);
 }
